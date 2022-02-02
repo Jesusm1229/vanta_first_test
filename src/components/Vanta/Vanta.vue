@@ -2,6 +2,8 @@
   <div id="Vanta" ref="vanta">
         <v-vanta effect="globe" :options=options></v-vanta>
   </div>
+  <slot>
+  </slot>
 </template>
  
 <script>
