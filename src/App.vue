@@ -1,11 +1,13 @@
 <template>
 <div id="run">
   <Vanta>
+    <Header></Header>
     <MessageText
         v-show="!valueMenuMobile"
       >
-        SOLUCIONES INMERSIVAS 
+        SOLUCIONES EFECTIVAS PARA TU NEGOCIO
       </MessageText>
+      
   </Vanta>
 </div>
 </template>
@@ -13,12 +15,14 @@
 <script>
 import Vanta from './components/Vanta/Vanta.vue'
 import MessageText from './components/MessageText/MessageText.vue'
+import Header from './components/Header/Header.vue';
 
 export default {
   name: 'App',
   components: {
     Vanta,
-    MessageText
+    MessageText,
+    Header
   }
 }
 </script>

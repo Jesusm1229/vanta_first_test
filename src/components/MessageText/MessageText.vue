@@ -29,7 +29,7 @@
 
         margin-bottom: 70.5vw;
         margin-left: 7.5vw;
-        margin-top: 15.5vw;
+        margin-top: 7.5vw;
     }
 
     span#text {
