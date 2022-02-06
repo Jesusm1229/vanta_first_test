@@ -1,14 +1,25 @@
 <template>
 <div id="run">
-  <Vanta>
+  
+    <Vanta>
+    
     <Header></Header>
+    
     <MessageText
         v-show="!valueMenuMobile"
       >
         SOLUCIONES EFECTIVAS PARA TU NEGOCIO
       </MessageText>
-      
-  </Vanta>
+    </Vanta> 
+
+    <Main
+      v-show="!valueMenuMobile"
+    />   
+     <Footer
+      v-show="!valueMenuMobile"
+    />
+  
+ 
 </div>
 </template>
 
@@ -16,13 +27,17 @@
 import Vanta from './components/Vanta/Vanta.vue'
 import MessageText from './components/MessageText/MessageText.vue'
 import Header from './components/Header/Header.vue';
+import Main from './components/Main/Main.vue';
+import Footer from './components/Footer/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Vanta,
     MessageText,
-    Header
+    Header,
+    Main,
+    Footer
   }
 }
 </script>
@@ -30,13 +45,14 @@ export default {
 <style>
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;       
     height: 100%;
-
+    
     box-sizing: border-box;
 
     font-family: Arial, Helvetica, sans-serif;
   }
+  
    :root {
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
@@ -56,5 +72,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: left;
+    
   }
 </style>

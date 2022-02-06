@@ -25,7 +25,7 @@
 
         width: 50vw;
 
-        border: 2px solid var(--white);
+        border: 5px solid var(--white);
 
         margin-bottom: 70.5vw;
         margin-left: 7.5vw;

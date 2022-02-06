@@ -1,9 +1,10 @@
 <template>
   <div id="Vanta" ref="vanta">
         <v-vanta effect="globe" :options=options></v-vanta>
+   
   </div>
   <slot>
-  </slot>
+    </slot>
 </template>
  
 <script>
@@ -32,6 +33,7 @@
 div#Vanta{
     width: 100%;
     min-height:100vh;
+    
 
     position:absolute;
     z-index:-1;
