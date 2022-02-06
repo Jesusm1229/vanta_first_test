@@ -28,7 +28,7 @@
         border: 5px solid var(--white);
 
         margin-bottom: 70.5vw;
-        margin-left: 7.5vw;
+        margin-left: -35.5vw;
         margin-top: 7.5vw;
     }
 

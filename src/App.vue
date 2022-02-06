@@ -1,10 +1,8 @@
 <template>
 <div id="run">
   
-    <Vanta>
-    
-    <Header></Header>
-    
+    <Vanta>    
+    <Header></Header>    
     <MessageText
         v-show="!valueMenuMobile"
       >
@@ -71,7 +69,7 @@ export default {
    div#run {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     
   }
 </style>

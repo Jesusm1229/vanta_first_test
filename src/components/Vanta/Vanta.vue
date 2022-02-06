@@ -32,9 +32,9 @@
 
 div#Vanta{
     width: 100%;
-    min-height:100vh;
+    height: 100vh;
     
-
+   
     position:absolute;
     z-index:-1;
     justify-content: center;
