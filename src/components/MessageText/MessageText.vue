@@ -22,13 +22,11 @@
 <style scoped>
     div#MessageText {
         padding: 20px;
-
         width: 50vw;
-
         border: 5px solid var(--white);
 
-        margin-bottom: 70.5vw;
-        margin-left: -35.5vw;
+        margin-bottom: 10.5vw;
+        margin-left:  -30.5vw;
         margin-top: 7.5vw;
     }
 

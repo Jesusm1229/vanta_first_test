@@ -18,7 +18,7 @@
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
-        scale: 1.0,        
+        scale: 1.0,               
         scaleMobile: 1.0,
         color: "#ffffff",
         backgroundColor: "#1b83c3",
@@ -32,8 +32,7 @@
 
 div#Vanta{
     width: 100%;
-    height: 100vh;
-    
+    height: 100vh;    
    
     position:absolute;
     z-index:-1;
